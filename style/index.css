@@ -180,6 +180,8 @@
   padding: 0 2rem;
   text-align: center;
   gap: 1rem;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 .search__title {
   margin: 0;
@@ -203,7 +205,11 @@ input[type="text"] {
 .display--none {
   display: none;
 }
-
+.search-select-container {
+  display: flex;
+  margin: 0 auto;
+  gap: 1rem;
+}
 .card-capsules {
   display: flex;
   flex-direction: column;
@@ -240,7 +246,7 @@ input[type="text"] {
   justify-content: center;
   flex-wrap: wrap;
   max-width: 1200px;
-  gap: 1rem;
+  gap: 3rem;
   margin: 0 auto;
 }
 .card__capsules-title,
@@ -311,7 +317,7 @@ input[type="text"] {
   color: #ffffff;
   font-weight: 500;
 }
-@media (min-width: 854px) {
+@media (min-width: 1280px) {
   .header__nav {
     max-width: 1200px;
     margin: 0 auto;
