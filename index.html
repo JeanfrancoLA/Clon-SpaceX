@@ -89,37 +89,42 @@
     </section>
     <section class="search">
       <div class="search-container">
-        <select name="spacex" id="spacex">
-          <option value="--">--</option>
-          <option value="capsules">capsules</option>
-          <option value="dragon">dragon</option>
-          <option value="Crew">Crew</option>
-          <option value="History">History</option>
+        <h2 class="search__title">Search</h2>
+        <h3 class="search__text">Seatch to capsule, dragons, crew and history</h3>
+        <div class="search-select-container">
+        <select name="spacex" id="spacex" class="search-select">
+          <option class="search-option" value="--">--</option>
+          <option class="search-option" value="capsules">capsules</option>
+          <option class="search-option" value="dragon">dragon</option>
+          <option class="search-option" value="Crew">Crew</option>
+          <option class="search-option" value="History">History</option>
         </select>
         <input
-          type="text"
-          placeholder="buscador de capsulas"
-          id="searchCapsulas"
-          value=""
-        />
-        <input
-          type="text"
-          placeholder="buscador de Dragones"
-          id="searchDragon"
-          value=""
-        />
-        <input
-          type="text"
-          placeholder="buscador de Personas"
-          id="searchPeople"
-          value=""
-        />
-        <input
-          type="text"
-          placeholder="buscador de Historias"
-          id="searchHistory"
-          value=""
-        />
+        type="text"
+        placeholder="buscador de capsulas"
+        id="searchCapsulas"
+        value=""
+      />
+      <input
+        type="text"
+        placeholder="buscador de Dragones"
+        id="searchDragon"
+        value=""
+      />
+      <input
+        type="text"
+        placeholder="buscador de Personas"
+        id="searchPeople"
+        value=""
+      />
+      <input
+        type="text"
+        placeholder="buscador de Historias"
+        id="searchHistory"
+        value=""
+      />
+      </div>
+      
         <div class="cards-capsules-container" id="cards-capsules-container"></div>
         <div class="cards-dragon-container" id="cards-dragon-container"></div>
         <div class="cards-crew-container" id="cards-crew-container"></div>
