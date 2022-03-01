@@ -1,4 +1,5 @@
 'use strict';
+AOS.init();
 const documentReady= () =>{
  const headerNavMenuIconContainer=document.getElementById("headerNavMenuIconContainer");
  const headerNavCloseIconContainer=document.getElementById("headerNavCloseIconContainer");
