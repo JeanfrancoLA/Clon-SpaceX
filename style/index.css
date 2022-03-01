@@ -29,7 +29,7 @@
 }
 .header__nav__logo-container {
   display: flex;
-  height: 2rem;
+  height: 1.75rem;
   cursor: pointer;
 }
 .header__nav__logo {
